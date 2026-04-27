@@ -1,44 +1,50 @@
-# 🚛 DispatchPro – Truck Dispatch Service Website
+# DispatchPro – Truck Dispatch Service Website
 
 DispatchPro is a modern and responsive **frontend-focused web application** built using **Next.js 14** and **Tailwind CSS**.
 It is designed to showcase truck dispatch services and allow users and drivers to submit their information through forms.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-👉 (Add your deployed link here)
+(dispatch-pro-git-main-esha-khans-projects.vercel.app)
 
 ---
+## Performance Report
 
-## 📌 Features
+- Lighthouse Audit Results 📈  
+- Covers Performance, SEO, Accessibility  
 
-### 🏠 Home Page
+[Download Full Report](./reports/performance-report.pdf)
+
+## Features
+
+### Home Page
 
 * Modern hero section with call-to-action
 * Services overview (Load Booking, Route Planning, Driver Support)
 * “Why Choose Us” section with animated cards
 * Smooth UI animations using Framer Motion
 
-### 📄 About Page
+### About Page
 
 * Company introduction and mission
 * Statistics and highlights
 * Work process explanation
 
-### 💰 Pricing Page
+### Pricing Page
 
 * 3 pricing plans (Starter, Pro, Enterprise)
 * Interactive hover effects
 * Clean pricing layout
 
-### 📞 Contact Page
+### Contact Page
 
 * Functional contact form
 * Sends data to backend API (`/api/contact`)
 * Displays success message after submission
 
-### 🚚 Driver Registration Page
+### Driver Registration Page
 
 * Driver signup form
 * Sends data to backend API (`/api/driver`)
@@ -46,7 +52,7 @@ It is designed to showcase truck dispatch services and allow users and drivers t
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **Frontend:** Next.js 14 (App Router)
 * **Styling:** Tailwind CSS
@@ -56,7 +62,7 @@ It is designed to showcase truck dispatch services and allow users and drivers t
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -77,27 +83,27 @@ app/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/dispatchpro.git
 ```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Run development server
+### Run development server
 
 ```bash
 npm run dev
 ```
 
-👉 Open in browser:
+Open in browser:
 
 ```
 http://localhost:3000
@@ -105,9 +111,9 @@ http://localhost:3000
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
-### 📩 Contact Form
+### Contact Form
 
 ```
 POST /api/contact
@@ -116,7 +122,7 @@ POST /api/contact
 * Receives user data
 * Logs data to server console
 
-### 🚛 Driver Registration
+### Driver Registration
 
 ```
 POST /api/driver
@@ -127,7 +133,7 @@ POST /api/driver
 
 ---
 
-## 🎨 Design Highlights
+## Design Highlights
 
 * Dark theme with modern UI
 * Gradient backgrounds and glassmorphism effects
@@ -136,7 +142,7 @@ POST /api/driver
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 
 The website is optimized for:
 
