@@ -1,36 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚛 DispatchPro – Truck Dispatch Service Website
 
-## Getting Started
+DispatchPro is a modern and responsive **frontend-focused web application** built using **Next.js 14** and **Tailwind CSS**.
+It is designed to showcase truck dispatch services and allow users and drivers to submit their information through forms.
 
-First, run the development server:
+---
+
+## 🌐 Live Demo
+
+👉 (Add your deployed link here)
+
+---
+
+## 📌 Features
+
+### 🏠 Home Page
+
+* Modern hero section with call-to-action
+* Services overview (Load Booking, Route Planning, Driver Support)
+* “Why Choose Us” section with animated cards
+* Smooth UI animations using Framer Motion
+
+### 📄 About Page
+
+* Company introduction and mission
+* Statistics and highlights
+* Work process explanation
+
+### 💰 Pricing Page
+
+* 3 pricing plans (Starter, Pro, Enterprise)
+* Interactive hover effects
+* Clean pricing layout
+
+### 📞 Contact Page
+
+* Functional contact form
+* Sends data to backend API (`/api/contact`)
+* Displays success message after submission
+
+### 🚚 Driver Registration Page
+
+* Driver signup form
+* Sends data to backend API (`/api/driver`)
+* Collects driver details (name, phone, MC/DOT, truck type, etc.)
+
+---
+
+## ⚙️ Tech Stack
+
+* **Frontend:** Next.js 14 (App Router)
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** React Icons
+* **API Handling:** Next.js API Routes
+
+---
+
+## 📁 Project Structure
+
+```
+app/
+ ├── api/
+ │    ├── contact/route.js
+ │    └── driver/route.js
+ ├── components/
+ │    ├── Navbar.js
+ │    ├── Footer.js
+ │    ├── HeroSection.js
+ │    └── ServiceCard.js
+ ├── about/
+ ├── contact/
+ ├── drivers/
+ ├── pricing/
+ └── page.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/dispatchpro.git
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔌 API Endpoints
 
-To learn more about Next.js, take a look at the following resources:
+### 📩 Contact Form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+POST /api/contact
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Receives user data
+* Logs data to server console
 
-## Deploy on Vercel
+### 🚛 Driver Registration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+POST /api/driver
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Receives driver data
+* Logs data to server console
+
+---
+
+## 🎨 Design Highlights
+
+* Dark theme with modern UI
+* Gradient backgrounds and glassmorphism effects
+* Fully responsive design
+* Smooth animations and transitions
+
+---
+
+## 📱 Responsiveness
+
+The website is optimized for:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+---
+
+## Author
+
+**Esha Khan**
+
+---
+
+## License
+
+This project is created for educational and internship purposes.
+
+---
+
+##Final Note
+
+This project demonstrates:
+
+* Strong frontend development skills
+* Component-based architecture in Next.js
+* API route handling (basic backend logic)
+* Modern UI/UX design principles
+
+---
+
+*Built to showcase truck dispatch services with a modern web experience*
